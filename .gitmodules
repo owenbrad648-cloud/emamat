@@ -1,0 +1,3 @@
+[submodule "guardian-class-connect"]
+	path = guardian-class-connect
+	url = https://github.com/rezash1977/guardian-class-connect.git

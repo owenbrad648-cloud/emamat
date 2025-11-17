@@ -1,0 +1,11 @@
+# This is the main configuration file for your Supabase project.
+
+# Your project's unique identifier from supabase.com
+project_id = "czghjmcgjityuptcmwaz"
+
+# Configuration for the 'bulk-signup' Edge Function
+[functions.bulk-signup]
+# This setting allows the function to be called from your web app
+# without requiring a user's JWT token, which is necessary for this use case.
+verify_jwt = false
+
